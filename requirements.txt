@@ -1,0 +1,3 @@
+PyQt5==5.15.11
+pandas==1.4.1
+pyInstaller=6.10
