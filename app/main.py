@@ -9,8 +9,8 @@ This application allows users to:
 4. Access the MET file at the pack level by clicking on the pack number in the pack information
    table.
 5. See an RCC summary table showing testers, date and time, RCC, and RCC messages.
-6. Export data to an Excel file by clicking the 'Export Data' button, with the option to choose the
-   preferred directory.
+6. Export data to an Excel file by clicking the 'Export Data File' button, with the option to choose
+   the preferred directory.
 
 The application retrieves data from ``C:\\Tracking``. If no CSV files are found in this directory,
 the app will display a message indicating that it is unable to retrieve files to run the

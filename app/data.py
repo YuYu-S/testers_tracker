@@ -56,9 +56,7 @@ class Data:
             packs.columns = self.pack_header
 
             # create a new column to combine date and time
-            #df_packs['date_time'] = df_packs['end_date'] + ' ' + df_packs['end_time']
-
-            packs['date_time'] = packs['end_date'] + '-' + '2024' + ' ' + packs['end_time']
+            packs['date_time'] = packs['end_date'] + ' ' + packs['end_time']
 
             # convert ``date_time`` column into datatime type
             packs['date_time'] = pd.to_datetime(packs['date_time'], format='%d-%b-%Y %H:%M')
