@@ -1,0 +1,5 @@
+# Ignore the generated folder
+output/
+
+# Ignore .spec file
+*.spec
